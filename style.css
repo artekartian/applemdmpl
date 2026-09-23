@@ -109,8 +109,8 @@ strong { color:var(--ink); font-weight:600; }
 /* ---------- 11. FAQ ---------- */
 .faq { border-bottom:1px solid var(--line); padding:0; }
 .faq:first-of-type { border-top:1px solid var(--line); }
-.faq summary { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px; padding:18px 0; font-size:17px; font-weight:500; color:var(--ink); cursor:pointer; list-style:none; }
-.faq summary::after { content:"+"; font-size:22px; font-weight:400; color:var(--acc); line-height:1; }
+.faq summary { display:flex; align-items:flex-start; gap:16px; padding:18px 0; font-size:17px; font-weight:500; color:var(--ink); cursor:pointer; list-style:none; }
+.faq summary::after { content:"+"; flex-shrink:0; margin-left:auto; font-size:22px; font-weight:400; color:var(--acc); line-height:1; }
 .faq[open] summary::after { content:"–"; }
 .faq p { padding:0 0 18px; margin:0; font-size:16px; }
 
