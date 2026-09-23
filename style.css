@@ -139,6 +139,7 @@ strong { color:var(--ink); font-weight:600; }
   .ctaRow { flex-direction:column; align-items:stretch; }
   .navIn .btnSm { width:auto; }
   .packHi { margin-top:8px; }
+  .faq summary { font-size:16px; line-height:1.4;}
 }
 
 /* ---------- 15. BREAKPOINT 768 ---------- */
